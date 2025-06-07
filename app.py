@@ -96,4 +96,3 @@ if st.button("Conectar"):
                 st.bar_chart(df_counts.set_index("nombre")["estudiantes"])
             else:
                 st.warning("Las columnas esperadas no están presentes en calificaciones.")
-

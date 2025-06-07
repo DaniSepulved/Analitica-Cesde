@@ -33,3 +33,11 @@ db.calificaciones.insert_many(calificaciones)
 print("✅ Datos insertados correctamente.")
 
 
+# from pymongo import MongoClient
+
+# uri = "mongodb+srv://Daniel:4334@cluster0.7qgozao.mongodb.net/notas?retryWrites=true&w=majority&appName=Cluster0"
+# client = MongoClient(uri)
+
+# db = client["notas"]
+# print(db.list_collection_names())
+
